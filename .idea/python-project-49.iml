@@ -2,9 +2,15 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/Include" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/Lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/Scripts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/Lib/site-packages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/brain_games" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dist" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
