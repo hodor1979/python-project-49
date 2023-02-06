@@ -1,12 +1,6 @@
 import random
 from random import randint
-def even_logic(): # логика только для игры в чётные числа
-    question = randint(1, 100)
-    if question % 2 == 0:
-        correct_answer = "yes"
-    else:
-        correct_answer = "no"
-    return (question, correct_answer)
+
 
 
 def calc_logic():
@@ -20,6 +14,45 @@ def calc_logic():
     # print(f'{a} {x} {b} = {eval(question)}')
     correct_answer = str(eval(question))
     return (question, correct_answer)
+
+
+def even_logic(): # логика только для игры в чётные числа
+    question = randint(1, 100)
+    if question % 2 == 0:
+        correct_answer = "yes"
+    else:
+        correct_answer = "no"
+    return (question, correct_answer)
+
+
+def gcd_logic():
+    a = randint(1, 10)  # первое случайное число
+    b = randint(1, 10)  # второе случайное число
+    c = min(a, b)
+    for i in range(c,0,-1):
+        # print(a,  b,  c,        i,      a/i, b/i)\
+        # print(i, a % i, b % i)
+        if (a % i == 0 and b % i == 0):
+            correct_answer = str(i)
+            break
+    question = f'{a}  {b}'
+    return (question, correct_answer)
+
+
+def prime_logic(): # логика только для игры в чётные числа
+    question = randint(1, 21)
+    count = 0
+    for i in range(1,question):
+      if question % i == 0:
+        count += 1
+      else:
+          continue
+    if count >1:
+        correct_answer = 'no'
+    else:
+        correct_answer = 'yes'
+    return (question, correct_answer)
+
 
 def progress_logic():
     prog = []  # будущий список для наполнения его элементами прогрессии

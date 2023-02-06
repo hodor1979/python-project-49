@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
+# from brain_games import cli
+import sys
+
 import cli
 import prompt
-from scripts import brain_games
+import brain_games
+# from scripts import brain_games
 def main(current_func, introduction):     ### логика, общая для любой brain
     # -игры
     brain_games.main()
@@ -21,7 +25,7 @@ def main(current_func, introduction):     ### логика, общая для л
                   f"    {correct_answer}.")
             print(f"Let's try again, {name}!")
             break
-
+    sys.exit()
 
 # if __name__ == "__main__":
 #     main()
