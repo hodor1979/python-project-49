@@ -1,7 +1,6 @@
 from random import randint
 
 
-
 def calc_logic():
     opers = ['+', '-', '*']  # список арифметических операторов
     a = randint(4, 20)  # случайное число a

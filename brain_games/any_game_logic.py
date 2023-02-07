@@ -22,7 +22,7 @@ def main(current_func, introduction):     # логика, общая для лю
                 continue
         else:
             print(f"'{user_answer}' is wrong answer /;(./ Correct answer was "
-                  f"    {correct_answer}.")
+                  f"{correct_answer}.")
             print(f"Let's try again, {name}!")
             break
     sys.exit()
