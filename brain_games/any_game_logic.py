@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-# from brain_games import cli
-import sys
 
-import cli
+import sys
 import prompt
-import brain_games
-# from scripts import brain_games
-def main(current_func, introduction):     ### логика, общая для любой brain
+from brain_games import cli
+from brain_games.scripts import brain_games
+
+
+def main(current_func, introduction):     # логика, общая для любой brain
     # -игры
     brain_games.main()
     name = cli.welcome_user()

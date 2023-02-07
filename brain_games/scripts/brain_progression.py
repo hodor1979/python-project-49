@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
-import any_game_logic
-from game_logics import brain_logic
+from brain_games import any_game_logic
+from brain_games.game_logics import brain_logic
+
 
 def main():
     intro = 'What number is missing in this progression?'
