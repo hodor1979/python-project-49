@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import sys
 import prompt
 from brain_games import cli
 from brain_games.scripts import brain_games
