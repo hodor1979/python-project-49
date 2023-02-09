@@ -5,7 +5,7 @@ from brain_games.games import brain_progression_logic
 
 
 def main():
-    intro = 'What number is missing in this progression?'
+    intro = 'What number is missing in the progression?'
     any_game_logic.main(brain_progression_logic.progress_logic, intro)
 
 
