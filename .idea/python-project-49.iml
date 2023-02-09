@@ -11,7 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/.venv/bin" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/venv" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/venv/Include" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/brain_games/game_logics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/brain_games/games" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (python-project-49) (2)" jdkType="Python SDK" />

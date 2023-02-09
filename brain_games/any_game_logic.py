@@ -8,7 +8,7 @@ from brain_games.scripts import brain_games
 
 def main(current_func, introduction):     # логика, общая для любой brain
     # -игры
-    brain_games.main()
+    brain_games.greetings()
     name = cli.welcome_user()
     print(introduction)
     for i in range(0, 3):
@@ -25,7 +25,7 @@ def main(current_func, introduction):     # логика, общая для лю
                   f"{correct_answer}.")
             print(f"Let's try again, {name}!")
             break
-    sys.exit()
+    exit()
 
 # if __name__ == "__main__":
 #     main()
