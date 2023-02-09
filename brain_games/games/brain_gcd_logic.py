@@ -9,5 +9,5 @@ def gcd_logic():
         if (a % i == 0 and b % i == 0):
             correct_answer = str(i)
             break
-    question = f'{a}  {b}'
+    question = f'{a} {b}'
     return question, correct_answer
