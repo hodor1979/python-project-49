@@ -10,7 +10,7 @@ def prime_logic():  # логика только для игры в чётные 
         else:
             continue
     if count > 1:
-        correct_answer = 'no'
+        correct_answer = "no"
     else:
-        correct_answer = 'yes'
+        correct_answer = "yes"
     return question, correct_answer

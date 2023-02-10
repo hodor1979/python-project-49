@@ -5,7 +5,7 @@ from brain_games.games import brain_prime_logic
 
 
 def main():
-    intro = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    intro = "Answer 'yes' if given number is prime. Otherwise answer 'no'."
     any_game_logic.main(brain_prime_logic.prime_logic, intro)
 
 
