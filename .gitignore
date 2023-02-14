@@ -1,1 +1,7 @@
+/.venv/**
+/dist/**
+/.vs/**
 /.venv/
+/.idea/**
+brain_games/games/__pycache__/
+.idea/*

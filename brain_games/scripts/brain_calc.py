@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 from brain_games import any_game_logic
-from brain_games.games import brain_calc_logic
+from brain_games.games import calc
 
 
 def main():
-    # brain_games.welcome_user()
     intro = 'What is the result of the expression?'
-    any_game_logic.main(brain_calc_logic.calc_logic, intro)
+    any_game_logic.main(calc.generate_round, intro)
 
 
 if __name__ == "__main__":

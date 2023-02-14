@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 from brain_games import any_game_logic
-from brain_games.games import brain_even_logic
+from brain_games.games import even
 
 
 def main():
     intro = 'Answer "yes" if the number is even, otherwise answer "no".'
-    any_game_logic.main(brain_even_logic.even_logic, intro)
+    any_game_logic.main(even.generate_round, intro)
 
 
 if __name__ == "__main__":
