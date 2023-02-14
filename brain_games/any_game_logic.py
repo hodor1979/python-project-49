@@ -16,8 +16,6 @@ def main(current_func, introduction):
             print(f"'{user_answer}' is wrong answer /;(./ Correct answer was "
                   f"'{correct_answer}'.")
             print(f"Let's try again, {name}!")
-            break
-        else:
-            print('Correct!')
-            if i > 1:
-                print(f'Congratulations, {name}!')
+            return
+        print('Correct!')
+    print(f'Congratulations, {name}!')
