@@ -12,7 +12,7 @@ def main(game, description):
         [question, correct_answer] = game()
         print('Question:', question)
         user_answer = prompt.string('Your answer: ')
-        if user_answer != correct_answer:
+        if user_answer != str(correct_answer):
             print(f"'{user_answer}' is wrong answer /;(./ Correct answer "
                   f"was "
                   f"'{correct_answer}'.")

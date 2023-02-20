@@ -12,6 +12,6 @@ def generate_round():
 def gcd(a, b):
     for i in range(min(a, b), 0, -1):
         if (a % i == 0 and b % i == 0):
-            correct_answer = str(i)
+            correct_answer = i
             break
     return correct_answer

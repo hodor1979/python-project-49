@@ -7,6 +7,13 @@ def generate_round():
     b = randint(4, 20)
     z = randint(0, 2)
     x = opers[z]
-    question = '{} {} {} '.format(a, x, b)
-    correct_answer = str(eval(question))
+    if x == '+':
+        question = f'{a}' + '[b]'
+        correct_answer = a + b
+    if x == '-':
+        question = f'{a}' - '[b]'
+        correct_answer = a - b
+    if x == '*':
+        question = f'{a}' * '[b]'
+        correct_answer = a * b
     return question, correct_answer

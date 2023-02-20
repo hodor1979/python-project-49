@@ -1,4 +1,5 @@
-### A set of 5 maths games named "Brain Games" consistinf of :
+### This project represents:
+### A set of 5 maths games named "Brain Games" consisting of :
 ### brain-calc ->  player does calculation
 ### brain-even ->  player considers if a number is even
 ### brain-gcd ->  player finds the greatest common divisor
