@@ -10,4 +10,4 @@
 ### codeclimate maintability
 [![Maintainability](https://api.codeclimate.com/v1/badges/1159b9c881f96dddd119/maintainability)](https://codeclimate.com/github/hodor1979/python-project-49/maintainability)
 ### Asciinema record
-https://asciinema.org/a/T6lIp6GQe56HhZ5b0E0YdAxKX
+[![asciicast](https://asciinema.org/a/561069.svg)](https://asciinema.org/a/561069)
