@@ -8,12 +8,12 @@ def generate_round():
     z = randint(0, 2)
     x = opers[z]
     if x == '+':
-        question = f'{a}' + '[b]'
+        question = f'{a} + {b}'
         correct_answer = a + b
     if x == '-':
-        question = f'{a}' - '[b]'
+        question = f'{a} - {b}'
         correct_answer = a - b
     if x == '*':
-        question = f'{a}' * '[b]'
+        question = f'{a} * {b}'
         correct_answer = a * b
     return question, correct_answer
